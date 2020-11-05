@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.App > h1 {
+  margin-bottom: 5px;
+}
+
+.App > h2 {
+  margin-top: 5px;
+  opacity: 0.7;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.fetch-button {
+  min-width: 150px;
+  margin-bottom: 30px;
+  padding: 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(54, 202, 165);
+  border: none;
+  color: rgb(15, 66, 54);
+  transition: all 0.5s;
+}
+
+.fetch-button:hover {
+  background-color: rgb(40, 209, 209);
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 47%;
+  color: #333;
+  flex-basis: width;
+  background-color: rgb(165, 230, 230);
+}
+
+.book h3 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.book h2 {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.details {
+  text-align: left;
+}

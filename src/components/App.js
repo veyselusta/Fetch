@@ -19,7 +19,6 @@ function App() {
       <h1>Game of Thrones Books</h1>
       <h2>Fetch a list from an API and display it</h2>
 
-      {/* Fetch data from API */}
       <div>
         <button className="fetch-button" onClick={fetchData}>
           Fetch Data
@@ -27,7 +26,6 @@ function App() {
         <br />
       </div>
 
-      {/* Display data from API */}
       <div className="books">
         {books &&
           books.map((book, index) => {
